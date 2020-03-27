@@ -2,7 +2,7 @@ body {
   font-family: 'Archivo Black', sans-serif;
   font-size: 3em;
   color: black;
-  background-image: url('/Users/williamvivas/Desktop/Programming/Telekinetic_Walrus/Walsace for web.jpg');
+  background-image: url('Walsace_for_web.jpg');
 }
 .sketch-holder {
   height: 100%;
