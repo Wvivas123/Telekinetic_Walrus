@@ -2,44 +2,71 @@ body {
   font-family: 'Archivo Black', sans-serif;
   font-size: 3em;
   color: black;
-  background-image: url('Walsace_for_web.jpg');
+  background-image: url('Final Costume_Design (1).jpg');
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1000px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the backg */
 }
-.sketch-holder {
-  height: 100%;
-  width: 100%;
+.Main {
+  background-color: whitesmoke;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
 }
-#vid {
-  margin-left: 25%;
+.links {
+  background-color: whitesmoke;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.Socialdiv {
+  background-color: whitesmoke;
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+.videos {
+  background-color: whitesmoke;
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+  text-align: center;
+}
+
+.hero-image {
+  background-image: url('White Background 2.jpg');
+  background-color: #cccccc;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .header {
-  margin-left: 29%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #soundcloud {
   margin-left: 29%;
 }
-.link {
-  margin-left: 32%;
-}
+
 .albumdiv {
   margin-top: 20px;
 }
 
 .Socials {
-  margin-left: 32%;
-}
-.Socialdiv {
-  margin-top: 50px;
   margin-left: 40%;
-  color: black;
-  background-color: whitesmoke;
-  width: 20%;
 }
 .album {
   margin-left: 29%;
-}
-.vids {
-  margin-left: 9%;
 }
 
 a {
