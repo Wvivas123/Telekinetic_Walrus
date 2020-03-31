@@ -37,6 +37,7 @@ body {
   width: 70%;
   padding: 10px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .hero-image {
@@ -53,17 +54,6 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-#soundcloud {
-  margin-left: 29%;
-}
-
-.albumdiv {
-  margin-top: 20px;
-}
-
-.Socials {
-  margin-left: 40%;
 }
 
 a {
@@ -83,4 +73,13 @@ a:hover {
   text-decoration: none;
   color: grey;
   animation: bloom ease-in-out 0.75s forwards;
+}
+
+@media only screen and (max-width: 430px) {
+  .Main {
+    width: 80%;
+  }
+  .links {
+    width: 70%;
+  }
 }
