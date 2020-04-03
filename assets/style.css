@@ -2,15 +2,16 @@ body {
   font-family: 'Archivo Black', sans-serif;
   font-size: 3em;
   color: black;
-  margin: 0;
-  padding: 0;
+  background-image: url('Final Costume_Design (1).jpg');
+  background-position: center;
+  background-size: cover;
 }
 #container {
   background-image: url('Final Costume_Design (1).jpg');
   background-color: #cccccc; /* Used if the image is unavailable */
 
   background-position: center; /* Center the image */
-
+  background-repeat: repeat;
   background-size: cover; /* Resize the backg */
   height: 100%;
   position: relative;
