@@ -2,12 +2,19 @@ body {
   font-family: 'Archivo Black', sans-serif;
   font-size: 3em;
   color: black;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+#container {
   background-image: url('Final Costume_Design (1).jpg');
   background-color: #cccccc; /* Used if the image is unavailable */
 
   background-position: center; /* Center the image */
 
   background-size: cover; /* Resize the backg */
+  min-height: 100%;
+  position: relative;
 }
 .Main {
   background-color: whitesmoke;
